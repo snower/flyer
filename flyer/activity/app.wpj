@@ -1,0 +1,27 @@
+SetConfig({
+	senser:[
+		{
+			name:"Dialog",
+			htmlUrl:"flyer/activity/Dialog.html",
+			jsUrl:"flyer/activity/Dialog.js",
+			cssUrl:"flyer/activity/Dialog.css",
+			type:"activity",
+			packageName:"Activity",
+			dependList:[
+				"Activity",
+				"Label"
+			]
+		},
+		{
+			name:"Inform",
+			htmlUrl:"flyer/Activity/Inform.html",
+			jsUrl:"flyer/Activity/Inform.js",
+			cssUrl:"flyer/Activity/Inform.css",
+			type:"activity",
+			packageName:"Activity",
+			dependList:[
+				"Activity"
+			]
+		}
+	]
+});

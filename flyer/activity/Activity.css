@@ -1,0 +1,12 @@
+@charset "utf-8";
+@package "Activity";
+@name "Activity";
+@extend "Senser_Senser";
+/* CSS Document */
+.Activity_Activity{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	overflow:hidden;
+}

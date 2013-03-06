@@ -1,0 +1,26 @@
+SetConfig({
+	senser:[
+		{
+			name:"Action",
+			htmlUrl:"flyer/widget/Action.html",
+			jsUrl:"flyer/widget/Action.js",
+			cssUrl:"flyer/widget/Action.css",
+			type:"widget",
+			packageName:"Widget",
+			dependList:[
+				"Widget"
+			]
+		},
+		{
+			name:"Label",
+			htmlUrl:"flyer/widget/Label.html",
+			jsUrl:"flyer/widget/Label.js",
+			cssUrl:"flyer/widget/Label.css",
+			type:"widget",
+			packageName:"Widget",
+			dependList:[
+				"Widget"
+			]
+		}
+	]
+});

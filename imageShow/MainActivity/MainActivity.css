@@ -1,0 +1,16 @@
+@charset "utf-8";
+@package "MainActivity";
+@name "MainActivity";
+@extend "Activity_Activity";
+/* CSS Document */
+.MainActivity_MainActivity{
+}
+
+.MainActivity_MainActivity header nav{
+	width:100%;
+}
+
+.MainActivity_MainActivity header nav .Widget_Action{
+	float:left;
+	width:25%;
+}

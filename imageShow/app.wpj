@@ -1,0 +1,43 @@
+
+Include("flyer/app.wpj");
+
+SetConfig({
+	senser:[
+		{
+			name:"MainActivity",
+			htmlUrl:"imageShow/MainActivity/MainActivity.html",
+			jsUrl:"imageShow/MainActivity/MainActivity.js",
+			cssUrl:"imageShow/MainActivity/MainActivity.css",
+			type:"activity",
+			packageName:"MainActivity",
+			dependList:[
+				"Activity",
+				"Action",
+				"Label"
+			]
+		},
+		{
+			name:"About",
+			htmlUrl:"imageShow/About/About.html",
+			jsUrl:"imageShow/About/About.js",
+			cssUrl:"imageShow/About/About.css",
+			type:"activity",
+			packageName:"About",
+			dependList:[
+				"Activity"
+			]
+		}
+	],
+	loadSenser:{
+		advance:[
+			"MainActivity"
+		],
+		idle:[
+			"Dialog"
+		],
+		needing:[
+			"About"
+		]
+	},
+	mainActivity:"MainActivity.MainActivity"
+});

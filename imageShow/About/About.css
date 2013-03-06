@@ -1,0 +1,11 @@
+@charset "utf-8";
+@package "About";
+@name "About";
+@extend "Activity_Activity";
+/* CSS Document */
+.About_About{
+}
+
+.About_About .main{
+	background-color:green;
+}

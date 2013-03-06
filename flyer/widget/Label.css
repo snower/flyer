@@ -1,0 +1,7 @@
+@charset "utf-8";
+@package "Widget";
+@name "Label";
+@extend "Widget_Widget";
+/* CSS Document */
+.Widget_Label{
+}

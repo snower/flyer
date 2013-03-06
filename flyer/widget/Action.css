@@ -1,0 +1,22 @@
+@charset "utf-8";
+@package "Widget";
+@name "Action";
+@extend "Widget_Widget";
+/* CSS Document */
+.Widget_Action{
+	padding:10px 0px 10px 0px;
+	font-size:24px;
+	color:#FFF;
+	text-align:center;
+	background: -moz-linear-gradient(top, #0CC, #0aa 80%);
+	background: -webkit-gradient(linear, 0 0, 0 80%, from(#0CC), to(#0aa));
+	-moz-box-shadow:0px 0px 6px #444;
+	-webkit-box-shadow:0px 0px 6px #444;
+	box-shadow:0px 0px 6px #444;
+	text-shadow: 3px 3px 7px #111;
+	opacity:0.65;
+}
+
+.Widget_Action:hover{
+	background:#0ee;
+}

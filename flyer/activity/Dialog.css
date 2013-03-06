@@ -1,0 +1,50 @@
+@charset "utf-8";
+@package "Activity";
+@name "Dialog";
+@extend "Activity_Activity";
+/* CSS Document */
+.Activity_Dialog{
+}
+
+.Activity_Dialog .main{
+	background-color:#FFFFFF;
+	position:absolute;
+	top:50px;
+	left:200px;
+	width:300px;
+	height:200px;
+	box-shadow:4px 4px 5px #CCC,-4px 4px 5px #CCC;
+}
+
+.Activity_Dialog .title{
+	position:relative;
+	padding:5px;
+	background-color:#0CC;
+}
+
+.Activity_Dialog .title .Widget_Label{
+	margin:5px 0px 0px 5px;
+	color:#FFFFFF;
+}
+
+.Activity_Dialog .title #close{
+	position:absolute;
+	top:-4px;
+	right:-4px;
+	width:26px;
+	height:26px;
+	line-height:26px;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#02f;
+	border-radius:13px;
+	cursor:pointer;
+	box-shadow:1px 1px 8px #40c,-1px -1px 8px #40c;
+}
+
+.Activity_Dialog .title #close:hover{
+	background-color:#02e;
+	box-shadow:1px 1px 8px #02e,-1px -1px 8px #02e;
+}

@@ -1,0 +1,16 @@
+<div class="MainActivity_MainActivity" extend="Activity_Activity">
+	<header class="header">
+    	<nav>
+            {{ Widget_Action::menu_home("首页") }}
+            {{ Widget_Action::menu_content("内容") }}
+            {{ Widget_Action::menu_about("关于") }}
+            {{ Widget_Action::menu_exit("退出") }}
+        </nav>
+    </header>
+	<div class="main">
+    	<div>{{Widget_Label::child_title("图片浏览器")}}</div>
+        <button id="about">about</button>
+        <input id="forward" type="button" value="forward" />
+    </div>
+    <footer class="footer">sfdsfds</footer>
+</div>
